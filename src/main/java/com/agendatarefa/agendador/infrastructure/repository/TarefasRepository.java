@@ -1,0 +1,11 @@
+package com.agendatarefa.agendador.infrastructure.repository;
+
+import com.agendatarefa.agendador.infrastructure.entity.TarefasEntity;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface TarefasRepository extends MongoRepository<TarefasEntity, String> {
+
+
+}
