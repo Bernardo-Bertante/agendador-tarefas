@@ -13,7 +13,6 @@ public interface TarefasConverter {
     @Mapping(source = "id", target = "id")
     @Mapping(source = "dataEvento", target = "dataEvento")
     @Mapping(source = "dataCriacao", target = "dataCriacao")
-    //????????????
     TarefasDTO paraTarefasDTO(TarefasEntity tarefasEntity);
     TarefasEntity paraTarefasEntity(TarefasDTO tarefasDTO);
 
