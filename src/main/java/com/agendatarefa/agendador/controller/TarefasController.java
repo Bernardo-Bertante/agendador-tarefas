@@ -6,7 +6,6 @@ import com.agendatarefa.agendador.infrastructure.enums.StatusNotificacaoEnum;
 import lombok.AllArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
